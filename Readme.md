@@ -1,27 +1,24 @@
-InfoFeatureSelection
-=====
+# Variational Information Maximization for Feature Selection
 
-Variational Information Maximization for Feature Selection
+This code is based on the following reference:
+- [Shuyang Gao, Greg Ver Steeg and Aram Galstyan. "Variational Information Maximization for Feature Selection", 2016.](https://arxiv.org/abs/1606.02827)
+- 
 
-This package contains Python code implementing variational information-theoretic feature selection. This algorithm selects one feature at a time and gradually optimizing the variational mutual information lower bound.
+This package contains C++ code implementing variational information-theoretic feature selection. The algorithm selects one feature at a time and gradually optimizing the variational mutual information lower bound. The data required to be discrete.
 
-Only a standard ```g++ complier required.
+###Dependencies
 
+Only a standard c++ complier required. No other dependencies needed.
 
- 
+###Usage
+
 Example installation and usage:
 
-```git clone https://github.com/BiuBiuBiLL/InfoFeatureSelection.git
+```
+g++ -O3 VMI_naive.cpp
+./a.out
+```
 
-```g++ -O3 VMI_naive.cpp
-
-
-See the reference on the implemented algorithm.
-
-				Shuyang Gao, Greg Ver Steeg and Aram Galstyan 
-				https://arxiv.org/abs/1606.02827
-				Variational Information Maximization for Feature Selection.
-				2016.
 
 
 				
