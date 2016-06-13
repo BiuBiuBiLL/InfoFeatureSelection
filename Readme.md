@@ -20,7 +20,7 @@ g++ -O3 VMI_naive.cpp
 
 For VMI pairwise algorithm:
 ```
-g++ -O3 VMI_naive.cpp
+g++ -O3 VMI_pairwise.cpp
 ./a.out
 ```
 The final output is printed in the command line.
